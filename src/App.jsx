@@ -1,16 +1,19 @@
-// import "./App.css";
+
+import "./css/App.css"
+import Header from "./components/Header";
+import Section from "./components/Section";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <Section
-        name="About me"
-        content="I am an advocate of self-improvement and I want to help people improve their lives through knowledge and application "
+        title="About me"
+        content="I am an aspiring web developer from Dallas, TX. I enjoy learning new things, building businesses, and travel. "
       />
       <Section
-        name="Contact me"
-        content="Email: sample_john_smith@mail.com | LinkedIn: https://www.linkedin.com/"
+        title="Contact me"
+        content="Email: devrobbygonzalez@gmail.com | LinkedIn: https://www.linkedin.com/in/robby-gonzalez-78476746/"
       />
     </div>
   );
